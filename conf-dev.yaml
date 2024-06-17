@@ -1,0 +1,9 @@
+kafka:
+  topic: test
+  brokers: 
+   - "localhost:30001"
+  schemaRegistryURL: http://localhost
+  auth:
+    user: controller_user
+    pass: controller_user_pass
+
